@@ -30,3 +30,5 @@ def imprimirPista():
         ubic = 1 + carro * (ancho_carriles + 1) + pos * ((ancho_carriles + 1) * cant_carros + 2)
         pista = pista[:ubic]+ str(carro+1) + " " * (ancho_carriles - len(str(carro+1))) + pista[ubic + len(str(cant_carros)):]  
     print(pista)
+    
+print(imprimirPista())
