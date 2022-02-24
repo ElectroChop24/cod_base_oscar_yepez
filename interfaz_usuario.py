@@ -5,6 +5,7 @@
 En este módulo deben quedar las funciones que se encargan de interactuar
 con el usuario, es decir, de pedirle datos y de mostrarle el juego.
 '''
+import os
 import correr_carrera as carr
 
 def imprimirPista():
